@@ -12,6 +12,7 @@
     "-": "^0.0.1",
     "@hookform/resolvers": "^3.3.4",
     "@ignite-ui/react": "^2.2.4",
+    "@prisma/client": "^5.10.2",
     "@rocketseat/eslint-config": "^2.2.2",
     "D": "^1.0.0",
     "next": "14.1.0",
@@ -29,6 +30,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "postcss": "^8",
+    "prisma": "^5.10.2",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
