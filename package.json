@@ -16,6 +16,7 @@
     "@rocketseat/eslint-config": "^2.2.2",
     "axios": "^1.6.7",
     "D": "^1.0.0",
+    "dayjs": "^1.11.10",
     "next": "14.1.0",
     "next-auth": "^4.24.6",
     "nookies": "^2.5.2",
