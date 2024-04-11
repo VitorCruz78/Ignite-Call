@@ -6,7 +6,7 @@ import {
   TimePickerItem,
   TimePickerList,
 } from './styles'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import dayjs from 'dayjs'
 import { api } from '@/lib/axios'
 import { useRouter } from 'next/router'
@@ -35,6 +35,7 @@ export function CalendarStep() {
     : null
 
   const { data: availability } = useQuery<Availability>({
+    enabled: !!selectedDate,
     queryKey: ['availability', selectedDateWithoutTime],
     queryFn: async () => {
       const { data } = await api.get(
